@@ -32,7 +32,7 @@ The following steps are required to run the Islam Companion Desktop application 
 * Change directory to the new virtual environment and activate the environment using the command: `source bin/activate`.
 * Clone the git repository using the command: `git clone https://github.com/pakjiddat/islam-companion.git`. Move the contents of the cloned directory to the root of the virtual environment. The root directory should contain the folders: **deploy, snap and source**.
 * Next install the required Python packages using the command: `pip install requirements.txt`.
-* Click [here](https://drive.google.com/file/d/1TdD4jsCmqvN4y1gGR4IeVR1JGOdj_56n/view?usp=sharing) to download the data for the quran and hadith readers. Rename the downloaded folder to data and move it to the **source/** folder.
+* Click [here](https://drive.google.com/file/d/1NMHSFYVgTPDGI43vrnuZShmhUPisktkN/view?usp=sharing) to download the data for the quran and hadith readers. Rename the downloaded folder to data and move it to the **source/** folder.
 * Run the quran reader application using the command: `python -m source.quran`. The command should be run from the root folder of the virtual environment. The hadith reader can be run using the command: `python -m source.hadith`.
 * The unit tests for the quran reader can be run using the command: `python -m source.test.test_qapi`.
 * The unit tests for the hadith reader can be run using the command: `python -m source.test.test_hapi`.
